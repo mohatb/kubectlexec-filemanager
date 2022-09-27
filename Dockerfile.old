@@ -25,4 +25,7 @@ RUN apt-get update > /dev/null && \
 
 EXPOSE 80
 
+VOLUME /var/www/filegator/repository
+VOLUME /var/www/filegator/private
+
 WORKDIR "/var/www/filegator/"
