@@ -11,12 +11,12 @@ return [
         'app_name' => 'kubectl-exec - FileManager',
         'app_version' => APP_VERSION,
         'language' => 'english',
-        'logo' => 'https://filegator.io/filegator_logo.svg',
+        'logo' => '',
         'upload_max_size' => 100 * 1024 * 1024, // 100MB
         'upload_chunk_size' => 1 * 1024 * 1024, // 1MB
         'upload_simultaneous' => 3,
         'default_archive_name' => 'archive.zip',
-        'editable' => ['.txt', '.css', '.js', '.ts', '.html', '.php', '.json', '.md'],
+        'editable' => ['.txt', '.css', '.js', '.ts', '.html', '.php', '.py', '.yml', '.xml', '.md', '.log', '.csv', '.conf', '.config', '.ini', '.scss', '.sh', '.env', '.example', '.htaccess', '.twig'],
         'date_format' => 'YY/MM/DD hh:mm:ss', // see: https://momentjs.com/docs/#/displaying/format/
         'guest_redirection' => '', // useful for external auth adapters
         'search_simultaneous' => 5,
