@@ -9,7 +9,7 @@ RUN apt-get update > /dev/null && \
     docker-php-ext-enable zip && \
     # Download and extract latest build
     cd /var/www/ && \
-    wget https://github.com/filegator/static/raw/master/builds/filegator_latest.zip && \
+    wget https://github.com/mohatb/kubectlexec-filemanager/raw/main/filegator_latest.zip && \
     unzip filegator_latest.zip && rm filegator_latest.zip && \
     chown -R www-data:www-data filegator/ && \
     chmod -R 775 filegator/ && \
