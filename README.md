@@ -10,8 +10,8 @@
 
 
 # Build
-- remove zip file - 
-rm -rf filegator_latest.zip
-- Save the changes and zip the file
-zip -r filegator_latest.zip filegator
+## remove zip file 
+- rm -rf filegator_latest.zip
+## Save the changes and zip the file
+- zip -r filegator_latest.zip filegator
 
