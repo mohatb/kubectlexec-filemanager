@@ -80,7 +80,7 @@ return [
         'Filegator\Services\View\ViewInterface' => [
             'handler' => '\Filegator\Services\View\Adapters\Vuejs',
             'config' => [
-                'add_to_head' => '',
+                'add_to_head' => '<meta name="author" content="mohatb">',
                 'add_to_body' => '',
             ],
         ],
