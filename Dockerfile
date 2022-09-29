@@ -13,6 +13,7 @@ RUN apt-get update > /dev/null && \
     unzip filegator_latest.zip && rm filegator_latest.zip && \
     chown -R www-data:www-data filegator/ && \
     chmod -R 775 filegator/ && \
+    usermod -a -G root www-data && \
     # configure Apache to use the value of APACHE_DOCUMENT_ROOT as its default Document Root
     sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf && \
     sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf && \
