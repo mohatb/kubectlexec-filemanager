@@ -1,7 +1,7 @@
 # kubectlexec-filemanager
 
-- docker build -t filegator .
-- docker run -p 8000:80 -d filegator
+- docker build -t filemanager .
+- docker run -p 8000:80 -d filemanager
 
 # Push
 - git add -A .
